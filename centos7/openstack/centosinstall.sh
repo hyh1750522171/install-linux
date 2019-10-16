@@ -5,6 +5,7 @@
 # centos换源
 # 安装 ifcofig 
 # 安装 vim
+# 安装 python3
 ######## 介绍结束 ###############
 
 
@@ -15,4 +16,5 @@ yum clean all
 yum makecache
 yum install -y net-tools 
 yum install -y vim
+yum install -y python3
 ########### 脚本结束 #############
