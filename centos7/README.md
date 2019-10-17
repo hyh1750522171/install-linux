@@ -53,5 +53,8 @@ service network restart
 ping baidu.com
 
 # 64 bytes from 220.181.38.148 (220.181.38.148): icmp_seq=1 ttl=128 time=84.9 ms  # 有数字则就好了
+
+# 安装 git 
+yum install -y git
 ```
 
