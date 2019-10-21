@@ -46,7 +46,7 @@ DNS1=192.168.7.1       # DNS 配置
 # 注意：只修改带注释的内容，如果没有则添加
 
 # 重启网络
-servicecrl network restart
+servicectl network restart
 
 # 保存退出之后 ping 一下外网 
 

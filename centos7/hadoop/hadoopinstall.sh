@@ -1,5 +1,8 @@
 #!/bin/sh
 ####### 安装hadoop #########
+# 修改主机名称
+# 添加映射主机并且立即生效
+# 配置ssh免密登录
 # 下载 hadoop 安装包
 # 解压 hadoop 安装包
 # 剪切并修改 hadoop
@@ -11,6 +14,17 @@
 ######## 介绍结束 ###############
 
 ########## 脚本开始 ############
+ssh-keygen -t rsa
+ssh-copy-id data1
+ssh-copy-id data2
+echo -e \\n
+echo -e \\n
+echo "下载hadoop" && sleep 5
+echo -e \\n
+echo -e \\n
+mkdir -p /hadoop/export/data
+mkdir -p /hadoop/tmp/dfs/data
+mkdir -p /hadoop/tmp/dfs/name
 wget https://archive.apache.org/dist/hadoop/common/hadoop-2.9.2/hadoop-2.9.2.tar.gz
 tar -zxvf hadoop-2.9.2.tar.gz
 mv hadoop-2.9.2 /opt/hadoop/

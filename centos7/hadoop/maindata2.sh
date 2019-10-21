@@ -5,6 +5,8 @@
 
 
 ########## 脚本开始 ############
+echo data2 > /etc/hostname 
+cat hosts.txt >>/etc/hosts && source /etc/hosts
 bash centosinstall.sh
 bash java install.sh
 bash hadoopinstall.sh
