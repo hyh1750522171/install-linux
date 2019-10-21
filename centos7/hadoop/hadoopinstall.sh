@@ -15,8 +15,8 @@
 
 ########## 脚本开始 ############
 ssh-keygen -t rsa
-ssh-copy-id data1
-ssh-copy-id data2
+ssh-copy-id root@192.168.56.101
+ssh-copy-id root@192.168.56.102
 echo -e \\n
 echo -e \\n
 echo "下载hadoop" && sleep 5
