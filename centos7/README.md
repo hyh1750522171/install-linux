@@ -58,3 +58,14 @@ ping baidu.com
 yum install -y git
 ```
 
+## 安装hadoop
+
+首先你需要两个安装包
+
+1. java ： jdk-8u191-linux-x64.tar.gz
+
+2. hadoop：hadoop-2.9.2.tar.gz
+
+   把这两个安装包放到你的 root 用户家目录下面
+
+   

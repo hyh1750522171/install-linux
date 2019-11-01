@@ -25,8 +25,7 @@ echo -e \\n
 mkdir -p /hadoop/export/data
 mkdir -p /hadoop/tmp/dfs/data
 mkdir -p /hadoop/tmp/dfs/name
-wget https://archive.apache.org/dist/hadoop/common/hadoop-2.9.2/hadoop-2.9.2.tar.gz
-tar -zxvf hadoop-2.9.2.tar.gz
+tar -zxvf ~/hadoop-2.9.2.tar.gz -C /opt/hadoop/
 mv hadoop-2.9.2 /opt/hadoop/
 sed -i "s/export JAVA_HOME=${JAVA_HOME}/export JAVA_HOME=/usr/local/java/jdk1.8.0_191/g" /opt/hadoop/etc/hadoop/hadoop-env.sh
 cat core-site.xml > /opt/hadoop/etc/hadoop/core-site.xml

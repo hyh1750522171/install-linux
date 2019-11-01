@@ -1,7 +1,15 @@
 
-10.1.1.11 controller
-10.1.1.21 compute01
-10.1.1.22 compute02
-10.1.1.31 block01
-10.1.1.41 object01
-10.1.1.42 object02
+# controller
+10.0.0.11       controller
+
+# compute1
+10.0.0.31       compute1
+
+# block1
+10.0.0.41       block1
+
+# object1
+10.0.0.51       object1
+
+# object2
+10.0.0.52       object2
