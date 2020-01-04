@@ -1,0 +1,14 @@
+requests
+BeautifulSoup4
+html2text
+django
+you-get
+tensorflow
+pygame
+Markdown
+pandas
+numpy
+lxml
+scrapy
+pymysql
+matplotlib
