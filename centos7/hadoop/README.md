@@ -5,6 +5,7 @@
 2. [hadoop_2.9.2](https://pan.baidu.com/s/1NUoJR5Z35D99gw0BZJQaKg)
 3. [centos7.4](http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8-x86_64-1905-dvd1.iso)
 4. [VMware Workstation Pro 注：windows软件](https://pan.baidu.com/s/1JCNc7AizOIwAlexfK5EAGA) 
+5. [官方安装文档`建议使用chrome浏览器打开网站纯英文`](https://hadoop.apache.org/docs/r2.9.2/hadoop-project-dist/hadoop-common/SingleCluster.html#Fully-Distributed_Operation)
 ## 开始安装系统
 此过程不在赘述
 
